@@ -2,7 +2,8 @@ const Page = () => {
   const changeThemAll = () => {
     document.querySelectorAll(".liman").forEach((boelie) => {
       boelie.style.backgroundColor = "pink";
-      boelie.style.color = "black";
+      boelie.style.color = "rebeccapurple";
+      boelie.style.border = "4px solid rebeccapurple";
     });
   };
   return (
